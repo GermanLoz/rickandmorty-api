@@ -1,0 +1,168 @@
+@media(max-width:1054px){
+.search .container-from-person {
+    grid-template-columns:auto;
+}
+.about{
+  grid-template-columns:auto ;
+}
+.favorite .container-from-person{
+    grid-template-columns:auto;
+}
+.about .personaje{
+    margin:2rem 10.5vw;
+}
+.personaje{
+  margin:4rem 10vw;
+  grid-template-columns:45vw auto ;
+  width:80vw;
+}
+.personaje img {
+    width:40vw;
+}
+.guardar{
+    width:80vw;
+}
+.favorite .guardar{
+    width:80vw;
+}
+}
+@media(max-width:710px){
+.inicio{
+  background:url('./assets/img/bg-res.jpeg');
+  background-size:cover;
+}
+.menu{
+    display:flex;
+    float:right;
+    background:#008f39;
+    border:none;
+    color:#AEE6E3;
+    margin:1rem;
+    padding:0.3rem;
+}
+.menu i{
+    font-size:2.5rem;
+}
+.cont-nav{
+    position:fixed;
+    z-index:1000;
+}
+nav ul{
+    transition:ease-out;
+    transition-duration:1s;
+    transform:translateX(120%);
+    position:fixed;
+    top:3.1rem;
+    background:rgba(0,0,0,0.8);
+    width:100%;
+    padding-top:4rem;
+    height:100%;
+}
+.cont-nav nav ul{
+    display:block;
+}
+nav ul li{
+    text-align:center;
+    padding:1rem;
+}
+.cont-nav nav ul li a{
+    font-size:1.3rem;
+    color:#BBE0F2;
+    text-shadow:1px 3px 6px  #008f39;
+}
+}
+@media(max-width:689px){
+.text-inicio p{
+    font-size:1.5rem;
+}
+.text-inicio h1{
+    padding-top:2.4rem;
+    font-size:3rem;
+}
+.about .personaje{
+    margin:2rem 5vw;
+}
+/*CODE     FOR     SEARCH */
+.container-from-person{
+    margin-top:2rem;
+}
+.guardar{
+    width:90vw;
+}
+.favorite .guardar{
+    width:90vw;
+}
+.search .container-from-person {
+  grid-template-columns:auto ;
+}
+.personaje{
+    width:90vw;
+    margin:1rem 5vw;
+}
+.personaje img {
+    width:80%;    
+}
+.search .form-search{
+    margin:0rem 8vw;
+}
+.form-search input{
+    width:70vw;
+}
+}
+@media(max-width:600px){
+.personaje {
+    padding-bottom:2rem;
+    grid-template-columns:auto;
+}  
+.personaje img{
+    width:100%;
+}
+.personaje p {
+    width:100%;
+    margin-left:15px;
+    padding-right:8px;
+}
+.personaje .name{
+    width:100%;
+    margin-left:15px;
+}
+}
+@media(max-width:505px){
+/*CODE     FOR     SEARCH */
+.container-from-person{
+    margin-top:0rem;
+}
+.search .form-search{
+    margin-left:5%;
+}
+.personaje p {
+    margin:0rem 1rem;
+}
+}
+@media(max-width:380px){
+/*CODE     FOR     SEARCH */
+.search .form-search{
+    margin-left:9vw;
+}
+.form-search input{
+    width:60vw;
+}
+}
+@media(max-width:380px){
+/*CODE     FOR     SEARCH */
+.search .form-search{
+    margin-left:5vw;
+}
+.cont-nav nav img{
+  width:60vw;
+  height:auto;
+  margin-top:0.5rem;
+  margin-left:1rem;
+}
+.text-inicio{
+  min-height:25rem;
+}
+.text-inicio::before{
+  min-height:25rem;
+}
+}
